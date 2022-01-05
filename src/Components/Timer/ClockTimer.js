@@ -7,7 +7,7 @@ class ClockTimer extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            seconds:8
+            seconds:20
         }
     }
 
