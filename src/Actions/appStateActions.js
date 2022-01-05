@@ -5,23 +5,23 @@ import {  } from "./type"
 const appData = [
     {
         'no':1,
-        'title':'Test this question',
-        'options':['test','test1','test2','test3'],
-        'correctOption':1
+        'title':'Inside which HTML element do we put the JavaScript?',
+        'options':['<javascript>','<js>','<scripting>','<script>'],
+        'correctOption':3
     },{
         'no':2,
-        'title':'Test this question 2',
-        'options':['tsdfest','tesdfst1','tessdt2','tessdft3'],
-        'correctOption':2
+        'title':'How do you write "Hello World" in an alert box?',
+        'options':['alertBox("Hello World")','msg("Hello World")','msgBox("Hello World")','alert("Hello World")'],
+        'correctOption':3
     },{
         'no':3,
-        'title':'Test this question 3',
-        'options':['test','test1','test2','test3'],
+        'title':'What does CSS stand for?',
+        'options':['Creative Style Sheets','Computer Style Sheets','Colourful Style Sheets','Cascading Style Sheets'],
         'correctOption':3
     },{
         'no':4,
-        'title':'Test this question 4',
-        'options':['test','test1','test2','test3'],
+        'title':'Which HTML tag is used to define an internal style sheet?',
+        'options':['<style>','<css>','<script>','<html>'],
         'correctOption':0
     }
 ]

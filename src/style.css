@@ -47,6 +47,10 @@ body {
     margin: 2rem 0;
 }
 
+.qz-option input{
+    margin-top: 6px;
+}
+
 .qz-option-text {
     margin-left: 1rem;
     cursor: pointer;

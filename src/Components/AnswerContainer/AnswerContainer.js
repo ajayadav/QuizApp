@@ -9,7 +9,8 @@ class AnswerContainer extends React.Component {
     genereateAnswersTable() {
         let isAnswered = false;
         let rows = this.props.appData.map( (ques) => {
-            isAnswered = (this.props.answerInfo[ques.no] ? true : false);
+            let questionIndex = ques.no - 1;
+            isAnswered = (this.props.answerInfo[questionIndex] !== undefined ? true : false);
             return <div key={ques.no} className='row'>
                 <div className='col'>
                     {ques.no}
@@ -18,7 +19,7 @@ class AnswerContainer extends React.Component {
                     {ques.title}
                 </div>
                 <div className='col-2'>
-                    { isAnswered ? (this.props.answerInfo[ques.no] == ques.correctOption ? 'Correct' : 'InCorrect') : 'Not Answered'}
+                    { isAnswered ? (this.props.answerInfo[questionIndex] == ques.correctOption ? 'Correct' : 'InCorrect') : 'Not Answered'}
                 </div>
             </div>
         })
