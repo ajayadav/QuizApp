@@ -1,0 +1,84 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    font-size: 16px;
+    color:#272727;
+    background-color: #f3f7f7;
+}
+
+.qz-title {
+    border-bottom: 1px solid #e3e3e3;
+    height: fit-content;
+}
+.qz-title-index {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.qz-ques {
+    height: 100vh;
+    width: 100vw;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.qz-footer {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #e3e3e3;
+    height: fit-content;
+}
+
+.qz-footer button {
+    margin: 1rem;
+}
+
+.qz-options {
+    flex-grow: 1;
+    padding: 1rem 0;
+}
+
+.qz-option {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.qz-option-text {
+    margin-left: 1rem;
+    cursor: pointer;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.qa-timer {
+    position: absolute;
+    right: 1rem;
+}
+
+
+.qz-ans-container {
+    margin: 2.5rem auto;
+}
+
+.qz-ans-container .row {
+    line-height: 2.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+}
+
+.qz-ans-header.row {
+    font-weight: 500;
+}
+
+.row div:first-child {
+    border-right:1px solid lightgray;
+}
+
+.row div:last-child {
+    border-right:1px solid lightgray;
+}
